@@ -5,13 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Oxford API</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Rochester|Marmelad" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" class="search">
-    <button>Submit</button>
-    <div class="result"></div>
+    <h1>My Dictionary</h1>
+        <div id="all">
+            <center>
+    <input type="text" class="search" placeholder="Enter your query">
+    <button style="display:none;" id="close" title="clear all query"><i class="fa fa-close" aria-hidden="true"></i></button>
+    <button id="search"><i class="fa fa-search"></i></button>
+    <div id="data">
 
+    <div class="id"></div>
+    <div class="phon-spell"></div>
+    <div id="lex-cat" style="font-style: italic;"></div>
+    <div id="def"></div>
+
+    <div id="lex-cat1" style="font-style: italic;"></div>
+    <div id="def1"></div>
+
+    <div id="lex-cat2" style="font-style: italic;"></div><br>
+    <div id="def2"></div>
+  
+    
+    <div id="lex-cat3" style="font-style: italic;"></div>
+    <div id="def3"></div>
+  
+    
+    <div id="lex-cat4" style="font-style: italic;"></div>
+    <div id="def4"></div>
+  
+    
+    <div id="lex-cat5" style="font-style: italic;"></div><br>
+    <div id="def5"></div>
+</div>
+   
+        <audio autoplay controls preload style="display: none;"></audio>
+    </center>
+    </div>
+    <footer>
+        By Aditya Narayan Mishra. &nbsp; Powered By <a href="">Oxford Dictionary</a> 
+    </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
     <script src="worknig.js"></script>

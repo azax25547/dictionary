@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("https://images.pexels.com/photos/415071/pexels-photo-415071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    opacity: 0.7;
+    padding: 10px 0;
+}
+#all{
+    height:60%;
+    width: 80%;
+    margin:2% 10% 2% 10%;
+    padding: 1em;
+    background:transparent;
+    box-shadow: 0 0 1px 1px #333;
+}
+#all input{
+padding: 0.8em;
+border: 0;
+border-bottom:1px solid #333;
+background: transparent;
+text-align: center;
+font-weight: 600;
+width: 50%;
+}
+::placeholder{
+    font-style: oblique;
+    color:#222;
+    text-align: center;
+
+}
+#all button{
+padding: 0.8em;
+margin-left:-37px;
+background: transparent;
+border: 0;
+}#all button:hover{
+    box-shadow: 1px 1px 1px #fff;
+    cursor: pointer;
+}
+.id{
+    text-transform: capitalize;
+    padding:10px 0;
+    font-weight: 600;  
+    font-size:1.5em;
+    font-family: 'Rochester', cursive;
+}
+#lex-cat,#lex-cat1,#lex-cat2,#lex-cat3,#lex-cat4,#lex-cat5{
+    text-transform: capitalize;
+    padding:10px 0;
+    font-weight: 600;  
+}
+.phon-spell{
+font-size:20px;
+}
+#def,#def1,#def2,#def3,#def4,#def5{
+    font-weight: bold;
+    text-justify: auto;
+    color:#3c3f3c;
+    font-size:22px;
+    
+    font-family: 'Marmelad', sans-serif;
+}
+footer{
+    background-color: #333;
+    color:#fff;
+    position: fixed;
+    bottom: 0;
+    font-family: 'HP Simplified', sans-serif;
+    width: 100%;
+    text-align:center;
+}footer a{
+    color:blue;
+    text-decoration: none;
+    
+}
+@media(max-width:402px){
+    #all{
+    margin:2% 8% 2% 5%;
+        
+    }
+}
