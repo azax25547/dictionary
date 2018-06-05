@@ -13,7 +13,7 @@ h1{
     text-align: center;
     opacity: 0.7;
     padding: 10px 0;
-    font-family:"HP Simplified",sans-serif;
+    font-family:"Arial",sans-serif;
 }
 #all{
     height:60%;
@@ -83,7 +83,7 @@ footer{
     text-decoration: none;
     
 }
-@media(max-width:402px){
+@media(max-width:420){
     #all{
     margin:2% 8% 2% 5%;
         
