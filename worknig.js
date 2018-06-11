@@ -60,7 +60,7 @@ function getMeaningData(){
     })
     $("#close").on("click",function(){
       $(".search").val(" ");
-      $("#data > *").text("");
+      $("#data > *").fadeOut(2000).text("");
       $("#close").hide(1000);
       $("#search").show(1000);  
     })
