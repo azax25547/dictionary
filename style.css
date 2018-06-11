@@ -8,6 +8,7 @@ body{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+    height:100vh;
 }
 h1{
     text-align: center;
@@ -18,8 +19,10 @@ h1{
 #all{
     height:60%;
     width: 80%;
-    margin:2% 10% 2% 10%;
+    margin:2% auto;
     padding: 1em;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     background:transparent;
     box-shadow: 0 0 1px 1px #333;
 }
@@ -79,13 +82,19 @@ footer{
     width: 100%;
     text-align:center;
 }footer a{
-    color:blue;
+    color:rgba(0, 0, 243, 0.912);
     text-decoration: none;
     
 }
+<<<<<<< HEAD
+@media(max-width:402px){
+    ::placeholder{
+        font-size:9px;
+=======
 @media(max-width:420){
     #all{
     margin:2% 8% 2% 5%;
         
+>>>>>>> d36acc272ea68497f0b12c84aa2203b5975f310c
     }
 }
