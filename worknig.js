@@ -1,12 +1,12 @@
 $(document).ready(function(){
-alert("Welcome to My Dictionary Web app. Search for the word that you want to see the corresponding meanings. Hoping you will like it..");   
+//alert("Welcome to My Dictionary Web app. Search for the word that you want to see the corresponding meanings. Hoping you will like it..");   
 
 function getMeaningData(){
   var toSearch = $(".search").val(); 
   var cors = 'https://cors-anywhere.herokuapp.com/';
   var dataUrl = cors+"https://od-api.oxforddictionaries.com/api/v1/entries/en/";
   $("#search").hide(2000);
-  $("#close").show(2000);
+  $("#close").show("slow");
 
 
   $.ajax({
@@ -49,13 +49,10 @@ function getMeaningData(){
    error: function(err){
    $("html").html(err.responseText)
    }
-
-    
   })
 }
 
     $("#search").on("click",function(){
-     
        getMeaningData();
     })
     $("#close").on("click",function(){
@@ -70,7 +67,6 @@ function getMeaningData(){
       if(!e.keyCode == 13)
       e.preventDefault();
       if(e.keyCode === 13){
-     
           getMeaningData();
       }
   })
