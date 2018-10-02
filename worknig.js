@@ -6,7 +6,7 @@ function getMeaningData(){
   var cors = 'https://cors-anywhere.herokuapp.com/';
   var dataUrl = cors+"https://od-api.oxforddictionaries.com/api/v1/entries/en/";
   $("#search").hide(2000);
-  $("#close").show(2000);
+  $("#close").show("slow");
 
 
   $.ajax({
